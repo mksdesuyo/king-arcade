@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO <github_url>
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Set%20Up%20Network%20and%20Application%20Load%20Balancers%20%7C%20GSP%20007/mks_gsp007.sh
 
 sudo chmod +x mks_gsp007.sh
 
