@@ -6,7 +6,7 @@ export PROJECT_ID=$(gcloud config get-value project)
 
 gsutil mb -l $REGION -c Standard gs://$PROJECT_ID
 
-curl -O <image_url>
+curl -O https://github.com/mksdesuyo/king-arcade/blob/main/Cloud%20Storage%3A%20Qwik%20Start%20-%20Cloud%20Console%20%7C%20GSP073/kitten.png
 
 gsutil cp kitten.png gs://$PROJECT_ID/kitten.png
 
