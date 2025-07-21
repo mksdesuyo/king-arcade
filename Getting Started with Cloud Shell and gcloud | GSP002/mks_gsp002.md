@@ -5,9 +5,9 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Create%20a%20Maven%20Artifact%20Registry%20and%20Upload%20Code%20%7C%20gem-artifact-registry-maven/mks_gem-artifact-registry-maven.sh
+curl -LO raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Getting%20Started%20with%20Cloud%20Shell%20and%20gcloud%20%7C%20GSP002/mks_gsp002.sh
 
-sudo chmod +x mks_gem-artifact-registry-maven.sh
+sudo chmod +x mks_gsp002.sh
 
-./mks_gem-artifact-registry-maven.sh
+./mks_gsp002.sh
 ```
