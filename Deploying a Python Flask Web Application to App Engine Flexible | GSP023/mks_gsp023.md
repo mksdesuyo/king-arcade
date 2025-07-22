@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Running%20a%20Containerized%20App%20on%20Google%20Kubernetes%20Engine%20%7C%20GSP015/mks_gsp015.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Deploying%20a%20Python%20Flask%20Web%20Application%20to%20App%20Engine%20Flexible%20%7C%20GSP023/mks_gsp023.sh
 
 sudo chmod +x mks_gsp023.sh
 
