@@ -11,3 +11,6 @@ sudo chmod +x mks_gsp080.sh
 
 ./mks_gsp080.sh
 ```
+
+#### Note:
+Select "n" for service account serviceAccountTokenCreator notification.
