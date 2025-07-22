@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Cloud%20Monitoring%3A%20Qwik%20Start%20%7C%20GSP089/mks_gsp089.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/BigQuery%20Soccer%20Data%20Analytical%20Insight%20%7C%20GSP850/mks_gsp850.sh
 
 sudo chmod +x mks_gsp850.sh
 
