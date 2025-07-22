@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Cloud%20Run%20Functions%3A%20Qwik%20Start%20-%20Command%20Line%20%7C%20GSP080/mks_gsp080.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Build%20a%20Serverless%20App%20with%20Cloud%20Run%20that%20Creates%20PDF%20Files%20%7C%20GSP644/mks_gsp644.sh
 
 sudo chmod +x mks_gsp644.sh
 
