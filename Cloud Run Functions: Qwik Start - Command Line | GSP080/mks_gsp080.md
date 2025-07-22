@@ -5,9 +5,9 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Managing%20Deployments%20Using%20Kubernetes%20Engine%20%7C%20GSP053/mks_gsp053.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Cloud%20Run%20Functions%3A%20Qwik%20Start%20-%20Command%20Line%20%7C%20GSP080/mks_gsp080.sh
 
-sudo chmod +x mks_gsp053.sh
+sudo chmod +x mks_gsp080.sh
 
-./mks_gsp053.sh
+./mks_gsp080.sh
 ```
