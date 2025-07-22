@@ -49,12 +49,9 @@ cat > package.json <<'EOF_CP'
 }
 EOF_CP
 
-gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID \
---member="serviceAccount:$DEVSHELL_PROJECT_ID@appspot.gserviceaccount.com" \
---role="roles/artifactregistry.reader"
+npm install
 
-deploy_function() {
-  gcloud functions deploy nodejs-pubsub-function \
+gcloud functions deploy nodejs-pubsub-function \
   --gen2 \
   --runtime=nodejs20 \
   --region=$REGION \
@@ -64,7 +61,6 @@ deploy_function() {
   --stage-bucket $DEVSHELL_PROJECT_ID-bucket \
   --service-account cloudfunctionsa@$DEVSHELL_PROJECT_ID.iam.gserviceaccount.com \
   --allow-unauthenticated --quiet
-}
 
 gcloud functions describe nodejs-pubsub-function \
   --region=$REGION
