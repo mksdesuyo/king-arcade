@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO <github_url>
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Cloud%20Filestore%3A%20Qwik%20Start%20%7C%20GSP244/mks_gsp244.sh
 
 sudo chmod +x mks_gsp244.sh
 
