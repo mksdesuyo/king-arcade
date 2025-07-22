@@ -10,7 +10,7 @@ https://github.com/subfuzion/voting-demo.git
 ### In IDE Terminal:
 
 ```bash
-curl -LO <github_url>
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/GKE%20Autopilot%3A%20Qwik%20Start%20%7C%20GSP957/mks_gsp957.sh
 
 source mks_gsp957.sh
 ```
