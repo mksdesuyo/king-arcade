@@ -42,7 +42,7 @@ curl -X POST -H "Content-Type: application/json" \
   }' \
   "https://compute.googleapis.com/compute/beta/projects/$project_id/global/healthChecks"
 
-sleep 10
+sleep 15
 
 curl -X POST -H "Content-Type: application/json" \
   -H "Authorization: Bearer $token" \
@@ -66,7 +66,7 @@ curl -X POST -H "Content-Type: application/json" \
   }' \
   "https://compute.googleapis.com/compute/v1/projects/$project_id/global/securityPolicies"
 
-sleep 10
+sleep 15
 
 curl -X POST -H "Content-Type: application/json" \
   -H "Authorization: Bearer $token" \
@@ -87,7 +87,7 @@ curl -X POST -H "Content-Type: application/json" \
   }' \
   "https://compute.googleapis.com/compute/beta/projects/$project_id/global/backendServices"
 
-sleep 30
+sleep 45
 
 curl -X POST -H "Content-Type: application/json" \
   -H "Authorization: Bearer $token" \
@@ -97,7 +97,7 @@ curl -X POST -H "Content-Type: application/json" \
   }' \
   "https://compute.googleapis.com/compute/v1/projects/$project_id/global/urlMaps"
 
-sleep 30
+sleep 35
 
 curl -X POST -H "Content-Type: application/json" \
   -H "Authorization: Bearer $token" \
@@ -115,7 +115,7 @@ curl -X POST -H "Content-Type: application/json" \
   }' \
   "https://compute.googleapis.com/compute/v1/projects/$project_id/global/targetHttpProxies"
 
-sleep 15
+sleep 20
 
 curl -X POST -H "Content-Type: application/json" \
   -H "Authorization: Bearer $token" \
@@ -130,7 +130,7 @@ curl -X POST -H "Content-Type: application/json" \
   }' \
   "https://compute.googleapis.com/compute/beta/projects/$project_id/global/forwardingRules"
 
-sleep 10
+sleep 15
 
 curl -X POST -H "Content-Type: application/json" \
   -H "Authorization: Bearer $token" \
@@ -145,7 +145,7 @@ curl -X POST -H "Content-Type: application/json" \
   }' \
   "https://compute.googleapis.com/compute/beta/projects/$project_id/global/forwardingRules"
 
-sleep 10
+sleep 15
 
 curl -X POST -H "Content-Type: application/json" \
   -H "Authorization: Bearer $token" \
@@ -159,7 +159,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 gcloud compute instances create siege-vm --project=$PROJECT_ID --zone=$ZONE_3 --machine-type=e2-medium --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default --metadata=enable-osconfig=TRUE,enable-oslogin=true --maintenance-policy=MIGRATE --provisioning-model=STANDARD --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/trace.append --create-disk=auto-delete=yes,boot=yes,device-name=siege-vm,image=projects/debian-cloud/global/images/debian-12-bookworm-v20250311,mode=rw,size=10,type=pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --labels=goog-ops-agent-policy=v2-x86-template-1-4-0,goog-ec-src=vm_add-gcloud --reservation-affinity=any && printf 'agentsRule:\n  packageState: installed\n  version: latest\ninstanceFilter:\n  inclusionLabels:\n  - labels:\n      goog-ops-agent-policy: v2-x86-template-1-4-0\n' > config.yaml && gcloud compute instances ops-agents policies create goog-ops-agent-v2-x86-template-1-4-0-$ZONE_3 --project=$PROJECT_ID --zone=$ZONE_3 --file=config.yaml && gcloud compute resource-policies create snapshot-schedule default-schedule-1 --project=$PROJECT_ID --region=$REGION_3 --max-retention-days=14 --on-source-disk-delete=keep-auto-snapshots --daily-schedule --start-time=16:00 && gcloud compute disks add-resource-policies siege-vm --project=$PROJECT_ID --zone=$ZONE_3 --resource-policies=projects/$PROJECT_ID/regions/$REGION_3/resourcePolicies/default-schedule-1
 
-sleep 10 
+sleep 15
 
 gcloud compute ssh --zone "$ZONE_3" "siege-vm" --project "$PROJECT_ID" --command "sudo apt-get -y install siege" --quiet
 
