@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Application%20Load%20Balancer%20with%20Cloud%20Armor%20%7C%20GSP%20215/mks_gsp215.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Hello%20Node%20Kubernetes%20%7C%20GSP005/mks_gsp005.sh
 
 sudo chmod +x mks_gsp005.sh
 
