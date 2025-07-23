@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Google%20Cloud%20Storage%20-%20Bucket%20Lock%20%7C%20GSP297/mks_gsp297.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Fundamentals%20of%20Cloud%20Logging%20%7C%20GSP610/mks_gsp610.sh
 
 sudo chmod +x mks_gsp610.sh
 
