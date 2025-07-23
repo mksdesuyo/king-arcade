@@ -5,7 +5,7 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Setting%20up%20a%20Private%20Kubernetes%20Cluster%20%7C%20GSP178/mks_gsp178.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Dataplex%3A%20Qwik%20Start%20-%20Console%20%7C%20GSP1143/mks_gsp1143.sh
 
 sudo chmod +x mks_gsp1143.sh
 
