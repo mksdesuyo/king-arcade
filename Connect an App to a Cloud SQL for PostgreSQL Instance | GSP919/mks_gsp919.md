@@ -11,3 +11,9 @@ sudo chmod +x mks_gsp919.sh
 
 ./mks_gsp919.sh
 ```
+
+### For password:
+
+```bash
+supersecret!
+```
