@@ -5,9 +5,9 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Pub_Sub%3A%20Qwik%20Start%20-%20Python%20%7C%20GSP094/mks_gsp094.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Dataflow%3A%20Qwik%20Start%20-%20Templates%20%7C%20GSP192/mks_gsp192.sh
 
-sudo chmod +x mks_gsp094.sh
+sudo chmod +x mks_gsp192.sh
 
-./mks_gsp094.sh
+./mks_gsp192.sh
 ```
