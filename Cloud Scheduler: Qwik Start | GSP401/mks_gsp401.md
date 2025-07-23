@@ -5,9 +5,9 @@ This script is a reflection of my learning progress, and not for anyone who want
 ### In Cloud Shell:
 
 ```bash
-curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Fundamentals%20of%20Cloud%20Logging%20%7C%20GSP610/mks_gsp610.sh
+curl -LO https://raw.githubusercontent.com/mksdesuyo/king-arcade/refs/heads/main/Cloud%20Scheduler%3A%20Qwik%20Start%20%7C%20GSP410/mks_gsp401.sh
 
-sudo chmod +x mks_gsp410.sh
+sudo chmod +x mks_gsp401.sh
 
-./mks_gsp410.sh
+./mks_gsp401.sh
 ```
